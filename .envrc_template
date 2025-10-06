@@ -1,0 +1,5 @@
+# Environment template (DO NOT put real secrets here).
+# Copy to .envrc or create .env and fill with your real keys locally.
+# Example:
+# export OPENAI_API_KEY="sk-... <-- put your real key only locally, NOT in git"
+export OPENAI_API_KEY="YOUR_OPENAI_KEY_HERE"
