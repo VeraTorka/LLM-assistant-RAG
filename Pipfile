@@ -4,18 +4,22 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-openai = "*"
 python-dotenv = "*"
-pandas = "*"
-scikit-learn = "*"
 psycopg2-binary = "*"
+openai = "*"
+scikit-learn = "*"
+pandas = "*"
+flask = "*"
 streamlit = "*"
 
 [dev-packages]
 hyperopt = {extras = ["all"], version = "*"}
+tqdm = "*"
+notebook = "==7.1.2"
+ipywidgets = "*"
+python-dotenv = "*"
+ipykernel = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.12"
-
-
