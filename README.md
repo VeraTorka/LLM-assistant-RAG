@@ -88,7 +88,7 @@ People often lack reliable nutrition facts for everyday foods, struggle to estim
 
 ```env
 # Required
-OPENAI_API_KEY=[REDACTED_OPENAI_KEY]
+OPENAI_API_KEY=...
 
 # App UI port (host)
 APP_PORT=8501

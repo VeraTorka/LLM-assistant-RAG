@@ -4,13 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-openai = "*"
-python-dotenv = "*"
-pandas = "*"
-scikit-learn = "*"
-psycopg2-binary = "*"
-streamlit = "*"
 
 [dev-packages]
 hyperopt = {extras = ["all"], version = "*"}
